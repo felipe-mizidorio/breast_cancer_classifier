@@ -14,6 +14,8 @@ Machine learning pipeline for breast cancer classification. Covers the full ML l
 | Flask | >= 3.1.3 |
 | gunicorn | >= 25.3.0 |
 | PyYAML | >= 6.0.3 |
+| pre-commit | >= 4.6.0 |
+| ruff | >= 0.15.12 |
 
 ## Installation
 
@@ -29,6 +31,9 @@ uv sync
 
 # Install with dev dependencies
 uv sync --group dev
+
+# Install pre-commit hooks
+pre-commit install
 ```
 
 ### Docker
